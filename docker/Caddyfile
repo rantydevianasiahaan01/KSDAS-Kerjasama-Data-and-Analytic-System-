@@ -1,0 +1,28 @@
+{
+	auto_https off
+	frankenphp {
+		php_ini {
+			memory_limit 1024M
+			max_execution_time 600
+			max_input_time 600
+			default_socket_timeout 600
+		}
+	}
+	servers {
+		timeouts {
+			read_body 10m
+			read_header 10m
+			write 10m
+			idle 10m
+		}
+	}
+	order php_server before file_server
+}
+
+:8000 {
+	root * /app/public
+	encode zstd br gzip
+	php_server {
+		request_body_timeout 10m
+	}
+}

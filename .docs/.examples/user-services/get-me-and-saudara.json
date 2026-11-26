@@ -1,0 +1,48 @@
+{
+    "status": "success",
+    "message": "Berhasil mengambil data pengguna dan saudara.",
+    "data": {
+        "users": [
+            {
+                "id": "8357fda6-67f7-4a99-8f01-9847d6920596",
+                "name": "Abdullah Ubaid, S.Kom",
+                "gender": "M",
+                "username": "abdullah.ubaid",
+                "email": "abdullah.ubaid@del.ac.id",
+                "alias": "Pegawai",
+                "photo": "http://localhost:6610/img/users/http://localhost:6610/img/users/user-8357fda6-67f7-4a99-8f01-9847d6920596.png",
+                "created_at": "2025-08-04T06:10:51.794Z",
+                "updated_at": "2026-08-05T07:32:11.951Z",
+                "password_updated_at": "2025-10-25T21:16:58.723Z",
+                "nim": "",
+                "gender_id": "Laki-Laki",
+                "gender_en": "Male",
+                "path_photo": "http://localhost:6610/img/users/user-8357fda6-67f7-4a99-8f01-9847d6920596.png",
+                "have_rfid": false,
+                "nidn": "",
+                "nip": "0309220455",
+                "cis_prodi_id": null
+            },
+            {
+                "id": "9d406344-1410-43df-820f-496b1d16cba2",
+                "name": "Indah Rejeki Gultom",
+                "gender": "F",
+                "username": "bps25007",
+                "email": "bps25007@students.del.ac.id",
+                "alias": "Mahasiswa",
+                "photo": "http://localhost:6610/img/users/http://localhost:6610/img/default/user.png",
+                "created_at": "2026-06-11T01:30:20.925Z",
+                "updated_at": "2026-08-17T15:06:41.161Z",
+                "password_updated_at": "2026-06-11T01:30:20.925Z",
+                "nim": "31S25007",
+                "gender_id": "Perempuan",
+                "gender_en": "Female",
+                "path_photo": "http://localhost:6610/img/default/user.png",
+                "have_rfid": false,
+                "nidn": "",
+                "nip": "",
+                "cis_prodi_id": 8
+            }
+        ]
+    }
+}

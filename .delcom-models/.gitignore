@@ -1,0 +1,14 @@
+.env
+app.http
+package-lock.json
+
+/node_modules
+.DS_Store
+.vscode
+/models/backups
+/public/img/users
+/models/src/seed.js
+
+/tmp
+backups/
+.env.production
